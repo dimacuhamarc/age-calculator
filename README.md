@@ -1,7 +1,7 @@
 # Frontend Mentor - Age calculator app
 
 ### My Take on this Challenge.
-## [Link](howoldru.netlify.app)
+[Link to the project](howoldru.netlify.app)
 ## My Progress
 
 [/] Functionality
