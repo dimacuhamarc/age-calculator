@@ -1,6 +1,15 @@
 # Frontend Mentor - Age calculator app
 
 ### My Take on this Challenge.
+
+## My Progress
+
+[/] Functionality
+[/] Design
+[ ] Error Handling
+
+
+
 ### Below is the official README.md of FrontEndMentor
 
 ## Welcome! 👋
