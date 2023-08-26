@@ -1,0 +1,39 @@
+@use 'variables' as *;
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: $font-family;
+}
+
+body {
+    background-color: $background-color;
+    background: repeating-linear-gradient(
+  45deg,
+  $primary-accent-lower,
+  #ededed 1px,
+  #f5f5f5 1px,
+  $background-color 5px);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    a { 
+        color: hsl(228, 45%, 44%); 
+        text-decoration: none;
+    }
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    transition: outline 0.2s ease-in-out;
+}
+
+input[type=number]:focus {
+    outline: 2px solid $primary-accent;
+}
